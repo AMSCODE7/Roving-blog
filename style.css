@@ -45,6 +45,12 @@ ul{
     list-style: none;
 }
 
+.active{
+    color: #fc036b;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
 .navbar{
     position: absolute;
     top: 0;
@@ -56,9 +62,14 @@ ul{
     color: whitesmoke;
 }
 
-.nav-links{[
-    
-]}
+.nav-links{
+    display: flex;
+    align-items: center;
+}
+
+.nav-links li{
+    margin: 0 30px;
+}
 
 .header-content h1{
     font-size: 7vmin;
@@ -72,3 +83,6 @@ ul{
     border-radius: 30px;
     color: whitesmoke;
 }
+
+/* mobile device view  */
+
