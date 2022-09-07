@@ -85,7 +85,11 @@ ul{
 }
 
 .menu-btn{
-    
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 40px;
+    cursor: pointer;
 }
 
 /* mobile device view  */
@@ -106,7 +110,11 @@ ul{
         justify-content: center;
         background: #99838c;
     }
+    .mobile-menu{
+        margin-top: 0px;
+    }
     .nav-links li{
         margin: 30px auto;
+        margin-top: -900px;
     }
 }
